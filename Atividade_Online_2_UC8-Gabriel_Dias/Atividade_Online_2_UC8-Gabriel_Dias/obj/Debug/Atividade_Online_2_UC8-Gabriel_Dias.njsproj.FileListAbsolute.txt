@@ -1,0 +1,2 @@
+C:\Users\Admin\source\repos\Atividade_Online_2_UC8-Gabriel_Dias\Atividade_Online_2_UC8-Gabriel_Dias\obj\Debug\Atividade_Online_2_UC8-Gabriel_Dias.njsproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Atividade_Online_2_UC8-Gabriel_Dias\Atividade_Online_2_UC8-Gabriel_Dias\bin\Microsoft.NodejsTools.WebRole.dll
