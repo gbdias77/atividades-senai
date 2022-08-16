@@ -1,47 +1,25 @@
-let caixa_de_pecas = []
-var nome_da_peca = prompt("digite o nome da peça:");
-var peso_da_peca = prompt("digite o peso da peça(gramas):)");
+var caixadepecas = ["Pneu","Freio","Embreagem","Amortecedor","Correias","Faróis","Bateria","Rádio","Filtro"]
+var nomepeca0 = prompt("nome");
+var pesopeca0 = prompt("peso(em gramas)");
 
-if(peso_da_peca < 100 ) { 
-    console.log(" não é possível cadastrar peças abaixo de 100 gramas ");
- } else {     
-if (nome_da_peca.length > 3) {
-    console.log("A peça foi cadastrada com sucesso");
-    caixa_de_pecas.push(nome_da_peca)
+ 
+if (pesopeca0 < 100) {
+console.log("Não é possível cadastrar peças com menos de 100 gramas");
 } else {
-    console.log(" não é possível cadastrar peças com menos de 3 letras ");}
- } 
-
- console.log("Peças registradas:",caixa_de_pecas)
- var nova_peca = prompt("adicionar nova peça?")
-
- // começo de repetição// 1° repetição//
-
- if(nova_peca = "sim") {
-    var nome_da_peca = prompt("digite o nome da peça:");
-var peso_da_peca = prompt("digite o peso da peça(gramas):)");
-
-if(peso_da_peca < 100 ) { 
-    console.log(" não é possível cadastrar peças abaixo de 100 gramas ");
- } else {     
-if (nome_da_peca.length > 3) {
-    console.log("A peça foi cadastrada com sucesso");
-    caixa_de_pecas.push(nome_da_peca)
-} else {
-    console.log(" não é possível cadastrar peças com menos de 3 letras ");}
- } 
-
- console.log("Peças registradas:",caixa_de_pecas)
- var nova_peca = prompt("adicionar nova peça?")
-
- if(nova_peca = "sim")  {
-    
+    if (nomepeca0.length < 3) {
+        console.log("Não é possível cadastrar peças com menos de 3 letras");
+    } else {console.log("Peça, "+nomepeca0+",adicionada com sucesso");
+caixadepecas.push(nomepeca0);
  }
-// fim da repetição//
- } else { if(caixa_de_pecas.length <=10) {
-    console.log(" peças adicionadas com sucesso ");
-    console.log("Peças registradas:",caixa_de_pecas);   
-} else {
-    console.log("Não é possível registrar mais de 10 peças");     
 }
- }
+
+var adicionarpeca = prompt("Deseja adicionar mais peças ?");
+
+if (adicionarpeca = ["Não","não","n"]) {
+    console.log("Peças na caixa:"+caixadepecas);   
+} if (adicionarpeca = ["Sim","sim","s"]){
+    console.log("Não é possível adicionar mais de 10 peças");
+    console.log("Peças na caixa:"+caixadepecas);
+}
+
+
