@@ -1,17 +1,19 @@
+Class = Contadorpecas
+
 var caixadepecas = ["Pneu","Freio","Embreagem","Amortecedor","Correias","Faróis","Bateria","Rádio","Filtro"]
-var nomepeca0 = prompt("nome");
-var pesopeca0 = prompt("peso(em gramas)");
+var nomepeca0 = prompt("Escreva o nome da peça");
+var pesopeca0 = prompt("Escreva o peso da peça(em gramas)");
 
  
 if (pesopeca0 < 100) {
 console.log("Não é possível cadastrar peças com menos de 100 gramas");
-} else {
+Contadorpecas.Stop()} 
     if (nomepeca0.length < 3) {
         console.log("Não é possível cadastrar peças com menos de 3 letras");
     } else {console.log("Peça, "+nomepeca0+",adicionada com sucesso");
 caixadepecas.push(nomepeca0);
  }
-}
+
 
 var adicionarpeca = prompt("Deseja adicionar mais peças ?");
 
